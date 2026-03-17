@@ -55,7 +55,7 @@ Best Model: Logistic Regression
 AUC Score: 0.86
 Confusion Matrix (Logistic Regression):
 
-![](Images/confusionmatrix.png)
+![](Images/Confusionmatrix.png)
 
 - True Positives (TP): 2345 - Predicted positive, actual positive.
 - True Negatives (TN): 1843 - Predicted negative, actual negative.
