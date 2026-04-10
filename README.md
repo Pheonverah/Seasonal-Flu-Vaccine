@@ -99,3 +99,45 @@ To enhance the impact:
 Effective implementation of these insights requires collaboration between public health agencies, healthcare providers, policymakers, and data scientists. By integrating predictive analytics into public health strategies, organizations can design more targeted and effective vaccination campaigns.
 
 
+## Reproducibility
+
+To run this project:
+
+pip install -r requirements.txt
+
+Then launch Jupyter Notebook:
+
+jupyter notebook
+
+#### Project Structure
+
+Seasonal-Flu-Vaccine/
+
+│── Data/  
+│   ├── training_set_features.csv → training features dataset  
+│   ├── training_set_labels.csv → target labels  
+│   ├── test_set_features.csv → test dataset  
+
+│── Images/  
+│   ├── confusion_matrix.png → model evaluation plot  
+│   ├── flu_vaccine.jpg → project illustration  
+│   ├── predictors.png → feature importance visualization  
+
+│── notebooks/  
+│   ├── EDA&Modelling.ipynb → main analysis and modeling notebook  
+
+│── models/  
+│   ├── seasonal_flu_vaccine_predictor.joblib → trained model  
+
+│── reports/  
+│   ├── notebook.pdf → exported notebook  
+│   ├── presentation.pdf → project presentation  
+
+│── .gitignore  
+│── README.md  
+│── requirements.txt  
+
+
+
+
+
